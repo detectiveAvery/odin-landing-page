@@ -155,6 +155,7 @@ header, footer {
 
 /* ------------- */
 
+
 /* Quote Styles */
 
 .quote-section {
@@ -188,6 +189,62 @@ header, footer {
 }
 
 /* ------------- */
+
+
+/* Call-to-Action Styles */
+
+.cta-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.cta-container {
+  background-color: #3882F6;
+  height: 150px;
+  width: 1000px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 120px;
+  box-sizing: border-box;
+}
+
+.cta-bold-text,
+.cta-light-text {
+  margin: 0;
+}
+
+.cta-bold-text {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: 500;
+}
+
+.cta-light-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.cta-button {
+  margin-left: auto;
+}
+
+.cta-button > button {
+  font-size: 18px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: bold;
+  border: 2px solid #F9FAF8;
+  padding: 6px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* ------------- */
+
 
 /* Footer Styles */
 
