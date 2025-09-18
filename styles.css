@@ -155,6 +155,39 @@ header, footer {
 
 /* ------------- */
 
+/* Quote Styles */
+
+.quote-section {
+  background-color: #c5c5c5;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1F2937;
+  margin: 0;
+}
+
+.quote-author {
+  font-size: 24px;
+  text-align: end;
+  font-weight: bold;
+  color: #1F2937;
+  margin: 0;
+}
+
+/* ------------- */
 
 /* Footer Styles */
 
